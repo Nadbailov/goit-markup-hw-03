@@ -131,6 +131,7 @@ display: inline-flex;
     border-radius: 4%;
     display: block;
      margin: 0 auto;
+
 }
 
 .hero-button:hover,
@@ -160,7 +161,7 @@ display: inline-flex;
 }
 
 .skills-list {
-display: inline-flex;
+display: flex; 
 gap: 24px;
 }
 
@@ -248,10 +249,11 @@ background: #fff;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .portfolio-list {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     /* width: calc((100% - 48px ) / 3); */
 }
