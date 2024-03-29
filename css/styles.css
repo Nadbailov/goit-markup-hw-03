@@ -5,15 +5,40 @@ body {
     list-style-type: type;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
 }
 
 /*-------- header -----------*/
+
+.header {
+padding-top: 24px;
+padding-bottom: 24px;
+border-bottom: 1px solid #e7e9fc;
+}
 
 .header-logo {
 font-weight: 700;
@@ -66,7 +91,13 @@ color: #2e2f42;
 /*---------------- Effective Solutions ----------------*/
 .hero {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
+
+.hero-wrapper {
+}
+
 
 .hero-title {
     font-weight: 700;
@@ -75,6 +106,8 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
 }
 
 .hero-button {
@@ -93,6 +126,10 @@ color: #2e2f42;
 }
 /* About us */
 
+.skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .skills-title {
     font-weight: 500;
         font-size: 20px;
@@ -113,6 +150,8 @@ color: #2e2f42;
 
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .team-title {
@@ -150,7 +189,10 @@ background: #fff;
 /* Our Portfolio */
 
 
-.portfolio {}
+.portfolio {
+    padding-top: 120px;
+        padding-bottom: 120px;
+}
 
 .portfolio-title {
     font-weight: 700;
@@ -186,6 +228,8 @@ background: #fff;
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+        padding-bottom: 100px;
 }
 
 .footer-logo {
