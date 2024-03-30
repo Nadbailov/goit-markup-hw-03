@@ -40,6 +40,9 @@ padding-bottom: 24px;
 border-bottom: 1px solid #e7e9fc;
 }
 
+.wrapper {
+    display: flex;
+}
 
 .header-logo {
 font-weight: 700;
@@ -62,7 +65,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42; 
+}
 
+.header-nav {
+    padding: 24px 0
 }
 
 .header-menu-item:hover,
